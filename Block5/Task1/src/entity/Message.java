@@ -1,4 +1,4 @@
-package block5.task1.entity;
+package entity;
 
 import java.util.Date;
 
@@ -88,6 +88,10 @@ public class Message {
 
     public void setLastModifiedDate(Date lastModifiedDate) {
         this.lastModifiedDate = lastModifiedDate;
+    }
+
+    public boolean isModified() {
+        return !createdDate.equals(lastModifiedDate);
     }
 
     @Override
