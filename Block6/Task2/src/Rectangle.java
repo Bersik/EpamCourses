@@ -1,7 +1,7 @@
 /**
  * Created by User on 07.04.2016.
  */
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Cloneable{
     private Point leftTop;// = new Point();
     private Point rightBottom;// = new Point();
 
