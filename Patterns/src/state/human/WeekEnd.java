@@ -1,4 +1,4 @@
-package human;
+package state.human;
 
 /**
  * Created on 10:38 26.05.2016
