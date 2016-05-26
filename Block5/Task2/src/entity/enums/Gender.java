@@ -1,4 +1,4 @@
-package block5.task2.entity;
+package entity.enums;
 
 /**
  * Created on 15:17 23.05.2016
