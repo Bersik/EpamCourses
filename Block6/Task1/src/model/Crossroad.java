@@ -49,4 +49,8 @@ public class Crossroad {
         return false;
     }
 
+    public void addTransport(GroundTransport transport) {
+        traffic.add(transport);
+    }
+
 }
